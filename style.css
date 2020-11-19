@@ -1,0 +1,110 @@
+/* ID */
+#logo{
+    vertical-align: middle;
+}
+
+/* Class - Button Style */
+.btn-red{
+    background-color: rgb(241, 24, 16);
+    color: white;
+    height:20px; 
+    width:150px;
+    padding: 20px;
+    font-size: 15pt; 
+    border-color: azure; 
+    border-radius: 20pt; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-red:hover {
+    background-color: rgb(192, 23, 17);
+    color: white;
+}
+
+/* Classes*/
+.banner{
+    width: 1090px;
+    height: 300px;
+    border: 5px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.info{
+    background-color: rgba(177, 174, 174, 0.849);
+    max-width: 50%;
+    margin-left: 10px;
+    filter:brightness(1.2);
+    padding:10px 
+}
+
+.container{
+    widows: 800px;
+    height: 800px;
+    padding-top: 20px;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.twolines{
+    float: left;
+    padding-right: 10px;
+}
+
+
+/* Elements */
+body{
+    background-image: url(image/background.jpg);
+}
+
+footer{
+    margin: 0px;
+    padding: 10px 15px 15px 15px;
+}
+
+hr{
+    height: 12px; 
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(255, 255, 255, 0.5); 
+    padding: 10px;
+}
+
+/* Elements - Fonts */
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: rgba(219, 217, 217, 0.938);
+}
+
+h2{
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(190, 190, 190);
+    padding-bottom: 0.5cm;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    clear: both;
+}
+
+footer p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align:left;
+    color: white;   
+}
+
